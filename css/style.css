@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.col {
+    float:left;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.content .col {
+    margin-left: 0%;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    max-width: 100px;
+    background-color: none;
+}
+
+.left {
+    padding:0;
+    margin:0;
+    font-family: 'Poiret One', cursive;
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.9em;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.left img {
+    margin-left: -50px;
+}
+
+
+
+input[type=text], select {
+    padding: 13px 180px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #9bbce0;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    background-color: #9bbce0;
+    color: black;
+    padding: 15px 21px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: red;
+}
+
+
+
+.social a {
+    background-color: #9bbce0;
+    color: white;
+    padding: 12px 21px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: black;
+}
+
+
+p {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    width: 100%;
+    padding-left: 150px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header {
+	background-color: red;
+    background: url("../img/bg.jpg") repeat;
+    width: 100%;
+    padding: 35px 0;
+    color: black;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 120%;
+    padding-top: 3em;
+    height:560px;
+}
+
+header h1 {
+	color: black;
+    text-align: center;
+    font-size: 5.5em;
+    
+    font-family: 'Poiret One', cursive;
+    padding-left: 10px;
+}
+
+h2, h3 {
+    text-align:center;
+    font-family: 'Poiret One', cursive;
+}
+
+li h2 {
+    text-align:right;
+}
+
+li h2:hover{
+    background-color: #9bbce0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Poiret One', cursive;
+    padding: 20px;
+    font-size: 1.2em;
+    line-height: 20px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+nav ul li a:active{
+    background-color: #9bbce0;
+    color: orange;
+}
+
+section p {
+	font-size: 1.4em;
+    font-family: 'Poiret One', cursive;
+    line-height: 50px;
+}
+
+.wrapper {
+    background-image:url(../image/pbj.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+.log {
+    padding: 15px ;
+    text-align: right;
+    font-family: 'Poiret One', cursive;
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.port-phone { 
+	display: block; 
+}
+
+.land-phone, .port-tab, .desktop, .wide-desk { 
+	display: none; 
+}
+
+.showing {
+    max-height: 20em;
+}
+
+nav ul {
+    background-color: #9bbce0;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+    max-height: 0;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav ul li:hover{
+    background-color: white;
+}
+
+section {
+    line-height: 1.5em;
+    font-size: 0.9em;
+    padding: 40px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+section li {
+    font-size: 1em;
+    padding--right: 1px;
+}
+
+.handle {
+    background: black;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    color: white;
+    display: block;
+}
+
+/*footer*/
+.footer-bg .box {
+    border-top: 2px solid #9bbce0;
+    text-align: center;
+}
+.footer-bg li {
+    display: inline;
+}
+
+.footer-bg li a {
+    display: inline-block;
+    padding: 1rem;
+    border: 1px solid #9bbce0;
+    background-color: #9bbce0;
+    margin: 0 0.5rem 0 0;
+    color: white;
+}
+
+.footer-bg li:last-child a {
+    margin: 0;
+}
+
+
+
+/*screen*/
+
+@media only screen and (min-width: 30em) { 
+    .image{
+            width:33.3333333333%;
+        }
+    header {
+        background-color: orange;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    header h1 {
+        font-size: 5em;
+        margin-top: -100px;
+        
+        padding-top: 300px;
+    }
+
+    .land-phone { 
+        display: block; 
+    }
+
+    .port-phone, .port-tab, .desktop, .wide-desk { 
+        display: none; 
+    }
+
+     .handle{
+        display: none;
+    }
+
+    nav ul {
+        display: block !important;
+        max-height: initial;
+    }
+
+
+
+    nav ul li {
+    display: inline-block;
+    padding: 20px;
+    }
+
+    nav ul li:hover{
+    background-color: white;
+    }
+
+}
+
+@media only screen and (min-width: 48em) { 
+    .image {
+            width:33.3333333333%;
+    }
+
+    .wrapper {
+        margin: 0 auto;
+    }
+
+    header h1 {
+        font-size: 5em;
+        margin-top: -100px;
+        padding-top: 300px;
+    }
+
+    p {
+        font-size: 1.4em;
+    }
+
+    .col-main {
+    width: 65%;
+    margin-right: 5%;
+    float: left;
+    }
+
+    .col-side {
+    width: 30%;
+    float: left;
+    }
+
+    .col-side p {
+    font-size: 0.8em;
+    float: left;
+   }
+
+   .port-tab { 
+        display: block; 
+    }
+
+    .port-phone, .land-phone, .desktop, .wide-desk { 
+        display: none; 
+    }
+
+    footer {
+        clear: both;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 60em) { 
+    .image{
+            width:33.3333333333%;
+        }
+    
+    header {
+        background-color: green;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+
+    header h1 {
+        font-size: 5em;
+        margin-top: -100px;
+        padding-top: 300px;
+    }
+
+    .desktop { 
+        display: block; 
+    }
+
+    .port-phone, .land-phone, .port-tab, .wide-desk { 
+        display: none; 
+    }
+
+@media only screen and (min-width: 72.5em) {
+    .image{
+            width:33.3333333333%;
+        }
+
+    header {
+        background-color: blue;
+    }
+
+    header h1 {
+        font-size: 5em;
+        text-align: top;
+        padding-left: 0px;
+        padding-top: 300px;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+    .wide-desk { 
+        display: block; 
+    }
+
+    .port-phone, .land-phone, .port-tab, .desktop { 
+        display: none; 
+    }
+
+
+
+    nav ul li {
+        display: inline-block;
+        padding: 20px;
+    }
+
+    nav ul li:hover{
+        background-color: white;
+    }

@@ -1,0 +1,45 @@
+/*-- reset code --*/
+
+body{
+	padding:0;
+	margin:0;
+	background:#FFF;
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	margin: 0;
+    padding: 0;
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.9em;
+}
+
+@media (max-width:991px) {
+
+	
+	#about {
+		padding: 4em 0;
+	}
+	
+	.t-head {
+		text-align: center;
+		margin-bottom: 2em;
+	}
+	
+	
+	
+	
+	
+	h3.head, .w3agile_newsletter_left h3 {
+		font-size: 2.1em;
+		margin-bottom: 0.6em;
+	}
+	.text.agile-info h4 {
+		font-size: 1.5em;
+	}
+
+
+/**/
+
+
